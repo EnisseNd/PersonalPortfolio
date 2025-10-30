@@ -47,10 +47,52 @@
 
 .parent {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    flex-direction: column; /* makes items stack vertically */
+    align-items: center; /* centers all items horizontally */
+    gap: 2rem; /* scaling unit, changes with root font size, adds vertical spacing between items */
+    padding: 1rem; /* creats internal spacing within an element */
+    width: 100%;
+    max-width: 100%;
 }
 
 .children {
-    flex: 0 1 200px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto; /* whatever the default height is */
+  margin: 1rem 0; /* 1rem going from top and bottom, 0 from left and right */
+}
+
+@media screen and (min-width: 1200x) {
+  .parent {
+    padding: 3rem;
+    max-width: 1200px;
+  }
+
+  .children {
+    width: 60px;
+  }
+
+  img {
+    max-height: 300px;
+    width: auto;
+  }
+
+  h1 {
+    font-size: 2.5em; /* referring not to the root font size, but to the current font size of the element */
+  }
+
+
+  h2 {
+    font-size: 2em; 
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
 }
