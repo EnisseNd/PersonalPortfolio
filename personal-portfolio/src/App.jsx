@@ -1,7 +1,5 @@
 import './App.css'
 import React from 'react'
-import ReactDOM from 'react-dom'
-import yalies from 'yalies'
 
 function App() {
   return (
@@ -17,11 +15,6 @@ function App() {
       <div className="children">
         <h1>Welcome to Enisse's Personal Portfolio</h1>
       </div>
-      <img 
-        src="https://i.pinimg.com/736x/9a/19/f8/9a19f88d93419de172d5b00eacf20d21.jpg"
-        alt="Purple Cat on Windowsill" 
-        height="300"
-      />
       <div className="children">
         <h2 className="header2" id="about">About Me</h2>
         <h4>Hi! I'm Enisse, a Yale sophomore passionate about all steps of the software development process, from conception to execution.
@@ -91,7 +84,7 @@ function App() {
         <h2 className="header4" id="contact">Contact Me</h2>
           <h4>
             <a
-            href='https://mail.google.com/mail/u/0/#inbox?compose=jrjtXLFVDjwgKrNmHprxXkpRdwXLKQgVFmhlsglZzJDMhnBXCQrqqjDXBNQwflnqsKnXmnnB'
+            href='mailto:enisse.ndikumana@yale.edu'
             target="_blank"
             rel="noopener noreferrer"
             >

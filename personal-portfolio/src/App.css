@@ -54,10 +54,6 @@
     color: purple;
 }
 
-.header4 {
-    color: purple;
-}
-
 .parent {
     display: flex;
     flex-direction: column; /* makes items stack vertically */
