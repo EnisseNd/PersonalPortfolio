@@ -24,17 +24,32 @@ function App() {
       />
       <div className="children">
         <h2 className="header2" id="about">About Me</h2>
-        <h4>Hi! I'm Enisse, a college freshman passionate about all steps of the software development process, from conception to execution.</h4>
+        <h4>Hi! I'm Enisse, a Yale sophomore passionate about all steps of the software development process, from conception to execution.
+          I'm mainly interested in software engineering (drivers, embedded), product management, and AI/ML.
+        </h4>
       </div>
       <div className="children">
         <h2 className="header3" id="stats">Stats</h2>
-          <h4>Age: 18</h4>
-          <h4>Hometown: Austin, TX</h4>
-          <h4>Residence: New Haven, CT (Go bulldogs!!)</h4>
-          <h4>Major: Computer Science</h4>
+          <p>Age: 19</p>
+          <p>Hometown: Austin, TX</p>
+          <p>Residence: New Haven, CT (Boola Boola!!)</p>
+          <p>Major: Computer Science and Economics</p>
       </div>
       <div className="children">
         <h2 className="header3" id="projects"> Projects</h2>
+        <h3>
+            <a
+            href="https://github.com/EnisseNd/SponsorshipOptimizer"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              Sponsorship Optimizer
+            </a>
+          </h3>
+          <p>
+            This was my first project experimenting with AI workflows and implementation. I created an AI-powered sponsorship outreach API using 
+            Python, FastAPI, PostgreSQL, and Groq/LLaMA 3.3 to streamline employer relationship management.
+          </p>
           <h3>
             <a 
               href="https://github.com/EnisseNd/CurrencyConverter" 
@@ -44,9 +59,9 @@ function App() {
               Currency Converter
             </a>
           </h3> 
-          <h4>This project was undertaken to explore my love of the diverse countires on this planet, 
+          <p>This project was undertaken to explore my love of the diverse countires on this planet, 
             through a practical application that converts currency values between different countries using real-time exchange rates from an external API.
-          </h4>
+          </p>
           <h3>
             <a 
               href="https://github.com/EnisseNd/LangTranslator" 
@@ -56,7 +71,9 @@ function App() {
               Language Translator
             </a>
           </h3>
-          <h4>This project was created to facilitate communication across different languages by translating text input from one language to another using an external translation API.</h4>
+          <p>This project was created to facilitate communication across different languages by 
+            translating text input from one language to another using an external translation API.
+          </p>
           <h3>
             <a 
               href="https://github.com/EnisseNd/C2C-Chatbot" 
@@ -66,12 +83,30 @@ function App() {
               Chatbot
             </a>
           </h3>
-          <h4>My first project was is a rudimentary chatbot meant to resond to standard user queries. Plans are in the works to refactor and expand the abilities of this chatbot to be more interactive.</h4>
+          <p> My first project was a rudimentary chatbot meant to respond to standard user queries. 
+            Plans are in the works to refactor and expand the abilities of this chatbot to be more interactive.
+          </p>
       </div>
       <div className="children">
         <h2 className="header4" id="contact">Contact Me</h2>
-          <h4>Email: enisse.ndikumana@yale.edu</h4>
-          <h4>LinkedIn: www.linkedin.com/in/enisse-ndikumana/</h4>
+          <h4>
+            <a
+            href='https://mail.google.com/mail/u/0/#inbox?compose=jrjtXLFVDjwgKrNmHprxXkpRdwXLKQgVFmhlsglZzJDMhnBXCQrqqjDXBNQwflnqsKnXmnnB'
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              enisse.ndikumana@yale.edu
+            </a>
+          </h4>
+          <h4> 
+            <a
+            href='https://linkedin.com/in/enisse-ndikumana/'
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              LinkedIn 
+            </a>
+          </h4>
       </div>
     </div>
   </>
