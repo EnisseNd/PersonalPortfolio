@@ -37,8 +37,8 @@ function App() {
               <span className="stat-value">Austin, TX</span>
             </li>
             <li className="stat">
-              <span className="stat-label">Residence</span>
-              <span className="stat-value">New Haven, CT (Boola Boola!!)</span>
+              <span className="stat-label">School</span>
+              <span className="stat-value">Yale University (Boola Boola!!)</span>
             </li>
             <li className="stat">
               <span className="stat-label">Major</span>
