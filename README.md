@@ -77,7 +77,7 @@ npm run lint
 ```
 
 ## Project Structure
-commit test
+
 ```text
 .
 ├── personal-portfolio/
