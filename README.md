@@ -27,10 +27,9 @@ A personal portfolio website highlighting my interests in software engineering, 
 
 ### Installation
 
-From the repository root, enter the application directory and install dependencies:
+From the repository root, install dependencies:
 
 ```bash
-cd personal-portfolio
 npm install
 ```
 
@@ -63,10 +62,9 @@ npm run preview
 This portfolio is deployed on [Vercel](https://vercel.com/). To deploy the project manually:
 
 1. Import the repository into Vercel.
-2. Set the project root directory to `personal-portfolio`.
-3. Select Vite as the framework preset.
-4. Use `npm run build` as the build command.
-5. Use `dist` as the output directory.
+2. Select Vite as the framework preset.
+3. Use `npm run build` as the build command.
+4. Use `dist` as the output directory.
 
 Vercel can also be connected to the Git repository to automatically create preview deployments for branches and deploy production changes from the configured production branch.
 
@@ -80,17 +78,18 @@ npm run lint
 
 ```text
 .
-├── personal-portfolio/
-│   ├── public/                 # Static public assets
-│   ├── src/
-│   │   ├── assets/             # Application assets
-│   │   ├── App.css             # Portfolio layout and component styles
-│   │   ├── App.jsx             # Portfolio content and page structure
-│   │   ├── index.css           # Global styles and design tokens
-│   │   └── main.jsx            # React application entry point
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
+├── public/                     # Static public assets
+├── src/
+│   ├── assets/                 # Application assets
+│   ├── App.css                 # Portfolio layout and component styles
+│   ├── App.jsx                 # Portfolio content and page structure
+│   ├── index.css               # Global styles and design tokens
+│   └── main.jsx                # React application entry point
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
 └── README.md
 ```
 
