@@ -6,6 +6,7 @@ function App() {
       <nav className="navbar">
         <a href="#about">About</a>
         <a href="#stats">Stats</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
         <a href="https://github.com/EnisseNd" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -46,6 +47,24 @@ function App() {
           </ul>
         </section>
 
+        <section className="section" id="experience">
+          <h2 className="section-title">Experience</h2>
+          <div className="experience">
+            <article className="exp">
+              <h3>
+                <a href="https://www.ni.com/en.html" target="_blank" rel="noopener noreferrer">
+                  Emerson T&M (formerly NI) - SWE Intern
+                </a>
+              </h3>
+              <p>
+                Over the past <b>3 summers</b>, I have been a Software Engineering Intern at Emerson T&M. Some projects I've worked on while there have 
+                been a <b>command-line interface</b> for EV battery test modules, a <b>code-generation plugin</b> for .NET Core, and research on <b>performance 
+                optimizations</b> for state operations in RF Test composite devices.
+              </p>
+            </article>
+          </div>
+        </section>
+
         <section className="section" id="projects">
           <h2 className="section-title">Projects</h2>
           <div className="projects">
@@ -56,7 +75,7 @@ function App() {
                 </a>
               </h3>
               <p>
-                This was my first project experimenting with AI workflows and implementation. I created an AI-powered sponsorship outreach API using
+                This was my first project experimenting with AI workflows and implementation. I created an <b>AI-powered</b> sponsorship outreach API using
                 Python, FastAPI, PostgreSQL, and Groq/LLaMA 3.3 to streamline employer relationship management.
               </p>
             </article>

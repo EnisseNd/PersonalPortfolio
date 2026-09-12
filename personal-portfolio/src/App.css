@@ -101,6 +101,36 @@
   font-weight: 500;
 }
 
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.exp {
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--color-accent);
+}
+
+.exp h3 {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+}
+
+.exp h3 a {
+  color: var(--color-text);
+}
+
+.exp h3 a:hover {
+  color: var(--color-primary);
+}
+
+.exp p {
+  margin: 0;
+  color: var(--color-muted);
+}
+
 .projects {
   display: flex;
   flex-direction: column;
