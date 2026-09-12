@@ -12,7 +12,7 @@ function App() {
       </nav>
 
       <div className="page">
-        <header className="hero">
+        <header className="myname">
           <h1>Enisse Ndikumana</h1>
         </header>
 

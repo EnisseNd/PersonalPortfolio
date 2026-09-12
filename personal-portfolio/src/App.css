@@ -34,13 +34,13 @@
   width: 100%;
 }
 
-.hero {
+.myname {
   text-align: center;
   padding: 4.5rem 1.5rem 3rem;
   max-width: 720px;
 }
 
-.hero h1 {
+.myname h1 {
   font-family: var(--font-heading);
   font-size: clamp(2rem, 5vw, 2.75rem);
   font-weight: 600;
