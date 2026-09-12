@@ -10,13 +10,6 @@ A personal portfolio website highlighting my interests in software engineering, 
 - Direct email and LinkedIn contact links
 - Responsive layout for desktop and mobile screens
 
-## Featured Projects
-
-- [Sponsorship Optimizer](https://github.com/EnisseNd/SponsorshipOptimizer): An AI-powered sponsorship outreach API built with Python, FastAPI, PostgreSQL, and Groq/LLaMA 3.3.
-- [Currency Converter](https://github.com/EnisseNd/CurrencyConverter): A currency conversion app that uses real-time exchange rates from an external API.
-- [Language Translator](https://github.com/EnisseNd/LangTranslator): A text translation app powered by an external translation API.
-- [Chatbot](https://github.com/EnisseNd/C2C-Chatbot): An early chatbot project that responds to standard user queries.
-
 ## Tech Stack
 
 - React 19
