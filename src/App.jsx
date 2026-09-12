@@ -21,7 +21,7 @@ function App() {
           <h2 className="section-title">About Me</h2>
           <p>
             Hi! I'm Enisse, a Yale sophomore passionate about all steps of the software development process, from conception to execution.
-            I'm mainly interested in software engineering (drivers, embedded), product management, and AI/ML.
+            I'm mainly interested in software engineering, product management, and AI/ML.
           </p>
         </section>
 
@@ -57,7 +57,7 @@ function App() {
                 </a>
               </h3>
               <p>
-                Over the past <b>3 summers</b>, I have been a Software Engineering Intern at Emerson T&M. Some projects I've worked on while there have 
+                Over the past <b>3 summers</b>, I have been a Software Engineering Intern at Emerson T&M, mostly working on driver software and embedded systems. Some projects I've worked on while there have 
                 been a <b>command-line interface</b> for EV battery test modules, a <b>code-generation plugin</b> for .NET Core, and research on <b>performance 
                 optimizations</b> for state operations in RF Test composite devices.
               </p>
