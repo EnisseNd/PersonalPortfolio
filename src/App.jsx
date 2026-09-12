@@ -52,7 +52,7 @@ function App() {
           <div className="experience">
             <article className="exp">
               <h3>
-                <a href="https://www.ni.com/en.html" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.ni.com" target="_blank" rel="noopener noreferrer">
                   Emerson T&M (formerly NI) - SWE Intern
                 </a>
               </h3>
